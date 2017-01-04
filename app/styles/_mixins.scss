@@ -1,0 +1,36 @@
+@keyframes btn-animation {
+	from {left: 0;}
+	to {left: 15px;}
+}
+
+@keyframes btn-animation-back {
+	from {left: 15px;}
+	to {left: 0;}
+}
+
+@mixin arrow-btn-move($arrow-color, $text-color) {
+	display: inline-block;
+	position: relative;
+	color: $text-color;
+	text-transform: uppercase;
+	font-size: 13px;
+	letter-spacing: .1em;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+	padding: 10px 0 10px 45px;
+	&:hover i {
+		animation-name: btn-animation;
+		animation-duration: 500ms;
+		animation-fill-mode: forwards;
+	}
+	i {
+		position: absolute;
+		top: 5px;
+		left: 0;
+		color: $arrow-color;
+		font-size: 24px;
+		animation-name: btn-animation-back;
+		animation-duration: 300ms;
+		animation-fill-mode: forwards;
+	}
+}

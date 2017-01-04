@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&subset=cyrillic-ext');
+//font-family: 'Roboto Condensed', sans-serif;
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,700&subset=cyrillic-ext');
+//font-family: 'Ubuntu', sans-serif;
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?d9x6dh');
+  src:  url('../fonts/icomoon.eot?d9x6dh#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?d9x6dh') format('truetype'),
+    url('../fonts/icomoon.woff?d9x6dh') format('woff'),
+    url('../fonts/icomoon.svg?d9x6dh#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-waterfall:before {
+  content: "\e900";
+}
+.icon-truck:before {
+  content: "\e901";
+}
+.icon-technology:before {
+  content: "\e902";
+}
+.icon-steamroller:before {
+  content: "\e903";
+}
+.icon-search:before {
+  content: "\e904";
+}
+.icon-multiply:before {
+  content: "\e905";
+}
+.icon-map1:before {
+  content: "\e906";
+}
+.icon-map:before {
+  content: "\e907";
+}
+.icon-logo_trans:before {
+  content: "\e908";
+}
+.icon-logo:before {
+  content: "\e909";
+}
+.icon-envelope:before {
+  content: "\e90a";
+}
+.icon-calendar:before {
+  content: "\e90b";
+}
+.icon-arrows:before {
+  content: "\e90c";
+}
+.icon-222:before {
+  content: "\e90d";
+}

@@ -1,0 +1,49 @@
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+	min-width: 1000px;
+	background-color: $body-bg;
+	font-size: 16px;
+	//padding-top: 30px;
+	line-height: 1;
+}
+
+.browserupgrade {
+	margin: 0.2em 0;
+	background: #ccc;
+	color: #000;
+	padding: 0.2em 0;
+}
+/*-----------------------------------------------------------------*/
+a {
+	text-decoration: none;
+	color: inherit;
+	&:focus {
+		outline: none;
+	}
+}
+
+ul, h1, h2, h3, h4, h5, h6, p, article {
+	margin: 0;
+}
+
+.container {
+	max-width: 1500px;
+	margin: 0 auto;
+}
+
+.section-title {
+	text-align: center;
+	color: #fff;
+	h1, h2 {
+		font-family: 'Roboto Condensed', sans-serif;
+		font-size: em(60);
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+	p {
+		font-family: 'Ubuntu', sans-serif;
+		font-weight: 300;
+		font-size: em(15);
+		margin-top: 15px;
+	}
+}
