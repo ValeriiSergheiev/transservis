@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ru">
+<html lang="">
 <head>
   <meta charset="utf-8">
   <meta name="description" content="">
@@ -28,7 +28,6 @@
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
       <![endif]-->
 
-      <!-- Главная -->
       <!-- Header -->
       <div class="header-wrapper">
         <div class="container">
@@ -56,42 +55,7 @@
       </div>
       <!-- End header -->
 
-      <!-- Home-section-1 -->
-      <div class="container">
-        <section id="home-entry">
-
-          <div class="section-title">
-            <h1>ооо транссервис</h1>
-            <p>Динамично развивающаяся современная строительная компания, основанная<br>в  2000 году.</p>
-          </div>
-
-          <a href="#" class="arrow-btn">
-            <i class="icon-arrows"></i>
-            о компании
-          </a>
-
-        </section>
-
-        <section id="entry-home-bottom">
-          <div class="entry-home-bottom-item">
-            <i class="icon-truck"></i>
-            <h6>реализация<br>строительных материалов</h6>
-          </div>
-
-          <div class="entry-home-bottom-item">
-            <i class="icon-steamroller"></i>
-            <h6>дорожное строительство</h6>
-          </div>
-
-          <div class="entry-home-bottom-item">
-            <i class="icon-waterfall"></i>
-            <h6>берегоукрепление</h6>
-          </div>
-        </section>
-      </div>
-      <!-- End Home-section-1 -->
-
-      <!-- Home-section-2 -->
+      <!-- Projects section -->
       <div class="container">
         <section id="our-projects">
 
@@ -99,14 +63,7 @@
             <h2>наши проекты</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor<br>incididunt ut labore et dolore magna aliqua.</p>
           </div>
-
-          <div class="arrow-btn-wrapper">
-            <a href="#" class="arrow-btn">
-              <i class="icon-arrows"></i>
-              смотреть все
-            </a>
-          </div>
-
+          
           <div class="projects-wrapper">
 
             <div class="project-row-1-2">
@@ -291,114 +248,328 @@
 
         </section>
       </div>
-      <!-- End Home-section-2 -->
+      <!-- End Projects section -->
 
-      <!-- Home-section-3 -->
+      <!-- Map section -->
       <div class="container">
-        <section id="equipment">
+        <section id="map-section">
 
           <div class="section-title">
-            <h2>наша техника</h2>
+            <h2>карта проектов</h2>
           </div>
 
-          <div class="arrow-btn-wrapper">
-            <a href="#" class="dark-arrow-btn">
-              <i class="icon-arrows"></i>
-              смотреть полностью
-            </a>
+          <div id="map"></div>
+
+          <div class="info-marker-wrapper">
+
+            <div class="info-marker" data-marker-index="0">
+              <div class="project-info">
+                <h4>Строительство обводной дороги Самара-Черноречье 1111</h4>
+
+                <div class="project-info-row-wrapper">
+                  <div class="project-info-row">
+                    <div class="project-info-item-left">
+                      <img src="images/orderer.png" alt="image">
+                    </div>
+                    <div class="project-info-item-right">
+                      <h6>Заказчик</h6>
+                      <p>Министерство транспорта Самарской области</p>
+                    </div>
+                  </div>
+
+                  <div class="project-info-row">
+                    <div class="project-info-item-left">
+                      <i class="icon-222"></i>
+                    </div>
+                    <div class="project-info-item-right">
+                      <h6>Протяженность</h6>
+                      <span>10 км</span>
+                    </div>
+                  </div>
+
+                  <div class="project-info-row">
+                    <div class="project-info-item-left">
+                      <i class="icon-calendar"></i>
+                    </div>
+                    <div class="project-info-item-right">
+                      <h6>Сроки реализации</h6>
+                      <p>Январь 2016 - февраль 2017</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="info-marker" data-marker-index="1">
+              <div class="project-info">
+                <h4>Строительство обводной дороги Самара-Черноречье 222</h4>
+
+                <div class="project-info-row-wrapper">
+                  <div class="project-info-row">
+                    <div class="project-info-item-left">
+                      <img src="images/orderer.png" alt="image">
+                    </div>
+                    <div class="project-info-item-right">
+                      <h6>Заказчик</h6>
+                      <p>Министерство транспорта Самарской области</p>
+                    </div>
+                  </div>
+
+                  <div class="project-info-row">
+                    <div class="project-info-item-left">
+                      <i class="icon-222"></i>
+                    </div>
+                    <div class="project-info-item-right">
+                      <h6>Протяженность</h6>
+                      <span>10 км</span>
+                    </div>
+                  </div>
+
+                  <div class="project-info-row">
+                    <div class="project-info-item-left">
+                      <i class="icon-calendar"></i>
+                    </div>
+                    <div class="project-info-item-right">
+                      <h6>Сроки реализации</h6>
+                      <p>Январь 2016 - февраль 2017</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="info-marker" data-marker-index="2">
+              <div class="project-info">
+                <h4>Строительство обводной дороги Самара-Черноречье 333</h4>
+
+                <div class="project-info-row-wrapper">
+                  <div class="project-info-row">
+                    <div class="project-info-item-left">
+                      <img src="images/orderer.png" alt="image">
+                    </div>
+                    <div class="project-info-item-right">
+                      <h6>Заказчик</h6>
+                      <p>Министерство транспорта Самарской области</p>
+                    </div>
+                  </div>
+
+                  <div class="project-info-row">
+                    <div class="project-info-item-left">
+                      <i class="icon-222"></i>
+                    </div>
+                    <div class="project-info-item-right">
+                      <h6>Протяженность</h6>
+                      <span>10 км</span>
+                    </div>
+                  </div>
+
+                  <div class="project-info-row">
+                    <div class="project-info-item-left">
+                      <i class="icon-calendar"></i>
+                    </div>
+                    <div class="project-info-item-right">
+                      <h6>Сроки реализации</h6>
+                      <p>Январь 2016 - февраль 2017</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="info-marker" data-marker-index="3">
+              <div class="project-info">
+                <h4>Строительство обводной дороги Самара-Черноречье 444</h4>
+
+                <div class="project-info-row-wrapper">
+                  <div class="project-info-row">
+                    <div class="project-info-item-left">
+                      <img src="images/orderer.png" alt="image">
+                    </div>
+                    <div class="project-info-item-right">
+                      <h6>Заказчик</h6>
+                      <p>Министерство транспорта Самарской области</p>
+                    </div>
+                  </div>
+
+                  <div class="project-info-row">
+                    <div class="project-info-item-left">
+                      <i class="icon-222"></i>
+                    </div>
+                    <div class="project-info-item-right">
+                      <h6>Протяженность</h6>
+                      <span>10 км</span>
+                    </div>
+                  </div>
+
+                  <div class="project-info-row">
+                    <div class="project-info-item-left">
+                      <i class="icon-calendar"></i>
+                    </div>
+                    <div class="project-info-item-right">
+                      <h6>Сроки реализации</h6>
+                      <p>Январь 2016 - февраль 2017</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="info-marker" data-marker-index="4">
+              <div class="project-info">
+                <h4>Строительство обводной дороги Самара-Черноречье 555</h4>
+
+                <div class="project-info-row-wrapper">
+                  <div class="project-info-row">
+                    <div class="project-info-item-left">
+                      <img src="images/orderer.png" alt="image">
+                    </div>
+                    <div class="project-info-item-right">
+                      <h6>Заказчик</h6>
+                      <p>Министерство транспорта Самарской области</p>
+                    </div>
+                  </div>
+
+                  <div class="project-info-row">
+                    <div class="project-info-item-left">
+                      <i class="icon-222"></i>
+                    </div>
+                    <div class="project-info-item-right">
+                      <h6>Протяженность</h6>
+                      <span>10 км</span>
+                    </div>
+                  </div>
+
+                  <div class="project-info-row">
+                    <div class="project-info-item-left">
+                      <i class="icon-calendar"></i>
+                    </div>
+                    <div class="project-info-item-right">
+                      <h6>Сроки реализации</h6>
+                      <p>Январь 2016 - февраль 2017</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="info-marker" data-marker-index="5">
+              <div class="project-info">
+                <h4>Строительство обводной дороги Самара-Черноречье 666</h4>
+
+                <div class="project-info-row-wrapper">
+                  <div class="project-info-row">
+                    <div class="project-info-item-left">
+                      <img src="images/orderer.png" alt="image">
+                    </div>
+                    <div class="project-info-item-right">
+                      <h6>Заказчик</h6>
+                      <p>Министерство транспорта Самарской области</p>
+                    </div>
+                  </div>
+
+                  <div class="project-info-row">
+                    <div class="project-info-item-left">
+                      <i class="icon-222"></i>
+                    </div>
+                    <div class="project-info-item-right">
+                      <h6>Протяженность</h6>
+                      <span>10 км</span>
+                    </div>
+                  </div>
+
+                  <div class="project-info-row">
+                    <div class="project-info-item-left">
+                      <i class="icon-calendar"></i>
+                    </div>
+                    <div class="project-info-item-right">
+                      <h6>Сроки реализации</h6>
+                      <p>Январь 2016 - февраль 2017</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="info-marker" data-marker-index="6">
+              <div class="project-info">
+                <h4>Строительство обводной дороги Самара-Черноречье 777</h4>
+
+                <div class="project-info-row-wrapper">
+                  <div class="project-info-row">
+                    <div class="project-info-item-left">
+                      <img src="images/orderer.png" alt="image">
+                    </div>
+                    <div class="project-info-item-right">
+                      <h6>Заказчик</h6>
+                      <p>Министерство транспорта Самарской области</p>
+                    </div>
+                  </div>
+
+                  <div class="project-info-row">
+                    <div class="project-info-item-left">
+                      <i class="icon-222"></i>
+                    </div>
+                    <div class="project-info-item-right">
+                      <h6>Протяженность</h6>
+                      <span>10 км</span>
+                    </div>
+                  </div>
+
+                  <div class="project-info-row">
+                    <div class="project-info-item-left">
+                      <i class="icon-calendar"></i>
+                    </div>
+                    <div class="project-info-item-right">
+                      <h6>Сроки реализации</h6>
+                      <p>Январь 2016 - февраль 2017</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="info-marker" data-marker-index="7">
+              <div class="project-info">
+                <h4>Строительство обводной дороги Самара-Черноречье 888</h4>
+
+                <div class="project-info-row-wrapper">
+                  <div class="project-info-row">
+                    <div class="project-info-item-left">
+                      <img src="images/orderer.png" alt="image">
+                    </div>
+                    <div class="project-info-item-right">
+                      <h6>Заказчик</h6>
+                      <p>Министерство транспорта Самарской области</p>
+                    </div>
+                  </div>
+
+                  <div class="project-info-row">
+                    <div class="project-info-item-left">
+                      <i class="icon-222"></i>
+                    </div>
+                    <div class="project-info-item-right">
+                      <h6>Протяженность</h6>
+                      <span>10 км</span>
+                    </div>
+                  </div>
+
+                  <div class="project-info-row">
+                    <div class="project-info-item-left">
+                      <i class="icon-calendar"></i>
+                    </div>
+                    <div class="project-info-item-right">
+                      <h6>Сроки реализации</h6>
+                      <p>Январь 2016 - февраль 2017</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
           </div>
-
-          <div class="equipment-row">
-
-            <div class="equipment-item">
-              <img src="images/equipment/1.jpg" alt="image">
-              <div class="equipment-item-info">
-                <h6>Бульдозер</h6>
-                <p>12 ед.</p>
-              </div>
-            </div>
-
-            <div class="equipment-item">
-              <img src="images/equipment/2.jpg" alt="image">
-              <div class="equipment-item-info">
-                <h6>Щебнераспределитель</h6>
-                <p>1 ед.</p>
-              </div>
-            </div>
-
-            <div class="equipment-item">
-              <img src="images/equipment/3.jpg" alt="image">
-              <div class="equipment-item-info">
-                <h6>Экскаватор</h6>
-                <p>7 ед.</p>
-              </div>
-            </div>
-
-            <div class="equipment-item">
-              <img src="images/equipment/4.jpg" alt="image">
-              <div class="equipment-item-info">
-                <h6>Экскаватор-погрузчик</h6>
-                <p>4 ед.</p>
-              </div>
-            </div>
-
-            <div class="equipment-item">
-              <img src="images/equipment/5.jpg" alt="image">
-              <div class="equipment-item-info">
-                <h6>Минипогрузчик</h6>
-                <p>4 ед.</p>
-              </div>
-            </div>
-
-          </div>
-
-          <div class="equipment-row">
-
-            <div class="equipment-item">
-              <img src="images/equipment/6.jpg" alt="image">
-              <div class="equipment-item-info">
-                <h6>Погрузчик</h6>
-                <p>10 ед.</p>
-              </div>
-            </div>
-
-            <div class="equipment-item">
-              <img src="images/equipment/7.jpg" alt="image">
-              <div class="equipment-item-info">
-                <h6>Трактор</h6>
-                <p>18 ед.</p>
-              </div>
-            </div>
-
-            <div class="equipment-item">
-              <img src="images/equipment/8.jpg" alt="image">
-              <div class="equipment-item-info">
-                <h6>Автогрейдер</h6>
-                <p>11 ед.</p>
-              </div>
-            </div>
-
-            <div class="equipment-item">
-              <img src="images/equipment/9.jpg" alt="image">
-              <div class="equipment-item-info">
-                <h6>Асфальтоукладчик</h6>
-                <p>6 ед.</p>
-              </div>
-            </div>
-
-            <div class="equipment-item">
-              <img src="images/equipment/10.jpg" alt="image">
-              <div class="equipment-item-info">
-                <h6>Фреза</h6>
-                <p>2 ед.</p>
-              </div>
-            </div>
-
-          </div>
-
         </section>
       </div>
-      <!-- End Home-section-3 -->
+      <!-- End Map section -->
 
       <!-- Footer -->
       <div class="container">
@@ -479,7 +650,7 @@
       <script src="/bower_components/lightbox2/dist/js/lightbox.js"></script>
       <!-- endbower -->
       <!-- endbuild -->
-      
+
       <script src="scripts/jquery.liCover.js"></script>
 
       <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>

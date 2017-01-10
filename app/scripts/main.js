@@ -261,7 +261,7 @@ function initMap() {
 			url: './images/m1.png',
 			width: 53,
 			height:53,
-			fontFamily:'roboto',
+			//fontFamily: 'Roboto Condensed',
 			textSize:30,
 			textColor:'#fefefe'
 		}]
@@ -284,3 +284,25 @@ var locations = [
 {lat: 53.639176, lng: 49.493300}
 ];
 //Конец страницы Проекты - Карта
+
+$(document).ready(function() {
+	
+	lightbox.option({
+		'resizeDuration': 200,
+		'wrapAround': true,
+		fadeDuration: 200,
+		imageFadeDuration: 200,
+		showImageNumberLabel: false,
+		positionFromTop: 200
+	});
+
+});
+
+$(window).load(function(){
+	$('.cover').liCover({
+		parent: $('.project-image a'),
+		position:'absolute',
+		veticalAlign:'middle',
+		align:'center'
+	});
+});
