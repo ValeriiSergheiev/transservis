@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Транссервис</title>
+
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <!-- build:css styles/vendor.css -->
+  <!-- bower:css -->
+  <link rel="stylesheet" href="/bower_components/normalize-css/normalize.css" />
+  <link rel="stylesheet" href="/bower_components/lightbox2/dist/css/lightbox.css" />
+  <!-- endbower -->
+  <!-- endbuild -->
+
+  <!-- <link rel="stylesheet" href="styles/liCover.css"> -->
+
+  <!-- build:css styles/main.css -->
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- endbuild -->
+
+</head>
+<body onload="init_contact_Map()">
+    <!--[if lt IE 10]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
+
+      <!-- Главная -->
+      <!-- Header -->
+      <div class="header-wrapper">
+        <div class="container">
+          <header>
+
+            <div class="header-logo">
+              <a href="#">
+                <i class="icon-logo_trans"></i>
+                <span>транссервис</span>
+              </a>
+            </div>
+
+            <nav class="main-menu">
+              <ul class="menu">
+                <li><a href="#">о компании</a></li>
+                <li><a href="#">наши<br>проекты</a></li>
+                <li><a href="#">наша техника</a></li>
+                <li><a href="#">производственные<br>базы</a></li>
+                <li><a href="#">контакты</a></li>
+              </ul>
+            </nav>
+
+          </header>
+        </div>
+      </div>
+      <!-- End header -->
+
+      <!-- Contacts section -->
+      <div class="container">
+        <section id="contacts">
+
+          <div class="section-title">
+            <h2>контакты</h2>
+          </div>
+
+          <div class="contact-item-wrapper">
+
+            <div class="contact-item">
+              <i class="icon-map"></i>
+              <p>443099, г. Самара,</p>
+              <p>ул. Алексея Толстого, 92</p>
+            </div>
+
+            <div class="contact-item">
+              <i class="icon-technology"></i>
+              <p>8 (84655) 6-52-21</p>
+              <p>8 (84655) 6-52-11</p>
+              <p>8 (84655) 6-51-45</p>
+            </div>
+
+            <div class="contact-item">
+              <i class="icon-envelope"></i>
+              <a href="mailto:info@oootransservis.com">info@oootransservis.com</a>
+            </div>
+
+          </div>
+        </section>
+      </div>
+      <!-- End Contacts section -->
+
+      <!-- Map section -->
+      <div class="container">
+        <div id="contact-map"></div>
+      </div>
+      <!-- End Map section -->
+
+      <!-- Footer -->
+      <div class="container">
+        <footer>
+          <div class="footer-top">
+            <div class="footer-section">
+              <h6>карта сайта</h6>
+              <div class="footer-section-info">
+                <ul>
+                  <li><a href="#">О компании</a></li>
+                  <li><a href="#">Наши проекты</a></li>
+                </ul>
+                <ul>
+                  <li><a href="#">Наша техника</a></li>
+                  <li><a href="#">Производственные базы</a></li>
+                </ul>
+                <ul>
+                  <li><a href="#">Контакты</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="footer-section">
+              <h6>информация</h6>
+              <div class="footer-section-info">
+                <ul>
+                  <li>ооо "транссервис"</li>
+                  <li>инн 6381006578</li>
+                </ul>
+                <ul>
+                  <li>ОГРН 1036303161180</li>
+                  <li>КПП 631701001</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="footer-section">
+              <h6>контакты</h6>
+              <div class="footer-section-info">
+                <ul>
+                  <li>443099, г. Самара,</li>
+                  <li>ул. Алексея Толстого, 92</li>
+                </ul>
+                <ul>
+                  <li>8 (84655) 6-52-21; 6-52-11; 6-51-45</li>
+                  <li><a href="mailto:info@oootransservis.com">info@oootransservis.com</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-bottom">
+            <div class="footer-bottom-left">
+              <a href="#"><span>© ООО “Транссервис”. 2016</span></a>
+            </div>
+
+            <div class="footer-bottom-right">
+              <a href="#"><i class="icon-logo"></i></a>
+            </div>
+          </div>
+        </footer>
+      </div>
+      <!-- End Footer -->
+
+      <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+      <script>
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+          function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='https://www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-XXXXX-X');ga('send','pageview');
+      </script>
+
+      <!-- build:js scripts/vendor.js -->
+      <!-- bower:js -->
+      <script src="/bower_components/jquery/dist/jquery.js"></script>
+      <script src="/bower_components/lightbox2/dist/js/lightbox.js"></script>
+      <!-- endbower -->
+      <!-- endbuild -->
+      
+      <!-- <script src="scripts/jquery.liCover.js"></script> -->
+
+      <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDfJE5ByfL42RVNT4_0xIg1jVwuU-SLqqs&callback=initMap"></script>
+      
+      <!-- build:js scripts/main.js -->
+      <script src="scripts/main.js"></script>
+      <!-- endbuild -->
+      
+    </body>
+    </html>

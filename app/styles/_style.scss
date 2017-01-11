@@ -714,3 +714,69 @@ header {
 		margin-bottom: 20px;
 	}
 }
+
+/* ***Страница Контакты*** */
+#contacts {
+	background-color: #fff;
+	padding: 45px 0;
+	border-bottom: 3px solid #003969;
+	.section-title {
+		color: $dark-blue;
+		margin-bottom: 60px;
+	}
+}
+
+.contact-item-wrapper {
+	@include clearfix;
+}
+
+.contact-item {
+	float: left;
+	width: calc(100% / 3);
+	text-align: center;
+	&:nth-child(2) {
+		position: relative;
+		&::before {
+			position: absolute;
+			content: '';
+			top: calc(50% - 70px / 2);
+			left: 0;
+			width: 2px;
+			height: 70px;
+			background-color: #ebebeb;
+		}
+		&::after {
+			position: absolute;
+			content: '';
+			top: calc(50% - 70px / 2);
+			right: 0;
+			width: 2px;
+			height: 70px;
+			background-color: #ebebeb;
+		}
+	}
+	i {
+		display: inline-block;
+		color: $light-blue;
+		font-size: 23px;
+		margin-bottom: 20px;
+	}
+	p {
+		font-family: 'Ubuntu', sans-serif;
+		font-size: 17px;
+		line-height: 19px;
+	}
+	a {
+		display: block;
+		font-family: 'Ubuntu', sans-serif;
+		font-size: 17px;
+		line-height: 19px;
+		&:hover {
+			opacity: .7;
+		}
+	}
+}
+
+#contact-map {
+	height: 435px;
+}
