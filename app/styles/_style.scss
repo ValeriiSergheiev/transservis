@@ -780,3 +780,67 @@ header {
 #contact-map {
 	height: 435px;
 }
+
+/* ***Новость*** */
+#single-news {
+	background-color: #fff;
+	padding: 40px;
+}
+
+.single-news-wrapper {
+	@include clearfix;
+}
+
+.single-news-img {
+	float: left;
+	width: 30%;
+	height: 335px;
+	img {
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+}
+
+.single-news-text {
+	float: right;
+	width: 66%;
+	h5 {
+		font-family: 'Roboto Condensed', sans-serif;
+		font-weight: 700;
+		font-size: 17px;
+		color: $dark-blue;
+		margin-bottom: 20px;
+	}
+	span {
+		display: inline-block;
+		font-family: 'Ubuntu', sans-serif;
+		font-size: 14px;
+		color: $light-blue;
+		margin-bottom: 20px;
+	}
+	p {
+		font-family: 'Ubuntu', sans-serif;
+		font-size: 14px;
+		margin-bottom: 20px;
+	}
+	ul {
+		margin-left: 25px;
+		li {
+			position: relative;
+			font-family: 'Ubuntu', sans-serif;
+			font-size: 14px;
+			margin-bottom: 20px;
+			&::before {
+				position: absolute;
+				content: '';
+				top: 2px;
+				left: -22px;
+				width: 10px;
+				height: 10px;
+				border-radius: 50%;
+				background-color: $light-blue;
+			}
+		}
+	}
+}

@@ -278,7 +278,7 @@ function init_contact_Map() {
 		styles: map_styles
 	});
 
-	var image = '../images/marker-map.png';
+	var image = './images/marker-map.png';
 	//Маркер страница Контакты
 	var marker = new google.maps.Marker({
 		position: myLatLng,
@@ -313,6 +313,13 @@ $(window).load(function(){
 
 	$('.cover-news').liCover({
 		parent: $('.news-img'),
+		position:'absolute',
+		veticalAlign:'middle',
+		align:'center'
+	});
+
+	$('.cover-single-news').liCover({
+		parent: $('.single-news-img'),
 		position:'absolute',
 		veticalAlign:'middle',
 		align:'center'
