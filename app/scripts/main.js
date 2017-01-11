@@ -305,4 +305,11 @@ $(window).load(function(){
 		veticalAlign:'middle',
 		align:'center'
 	});
+
+	$('.cover-news').liCover({
+		parent: $('.news-img'),
+		position:'absolute',
+		veticalAlign:'middle',
+		align:'center'
+	});
 });

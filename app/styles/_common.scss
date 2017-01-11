@@ -81,6 +81,10 @@ ul {
 	@include arrow-btn-move($dark-blue, $light-blue);
 }
 
+.light-arrow-btn {
+	@include arrow-btn-move($light-blue, $light-blue);
+}
+
 	//Lightbox
 	.lightbox .lb-image {
 		border: none;
@@ -123,3 +127,4 @@ ul {
 			background-color: rgba(46, 49, 68, .7);
 		}
 	}
+
